@@ -16,7 +16,7 @@ const  UdaipurTourAndTravelRecommendPage = () => {
     const fetchData = async () => {
       try {
         // Make an HTTP GET request using Axios
-        const response = await axios.get('http://localhost:4000/tourandtravel_recommendation');
+        const response = await axios.get('https://recommendation-app-backend-production.up.railway.app/tourandtravel_recommendation');
         // Update the state with the fetched data
         setData(response.data);
       } catch (error) {
