@@ -1,4 +1,5 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+
 import HomePage from "./components/homepage/HomePage";
 import AllCategoryPage from "./components/all category/AllCategoryPage";
 import ElectronicsSubCategoryPage from "./components/sub category/ElectronicsSubCategoryPage";
@@ -63,6 +64,8 @@ function App() {
         <Route path = "/category/learning/java" Component={JavaRecommendPage}/>
         <Route path = "/category/learning/python" Component={PythonRecommendPage}/>
         <Route path = "/category/learning/htmlcss" Component={HtmlCssRecommendPage}/>
+
+        <Route path = "/category/learning/:tech'" Component={LearningRecommendPage}/>
       
 
 
