@@ -65,7 +65,6 @@ function App() {
         <Route path = "/category/learning/python" Component={PythonRecommendPage}/>
         <Route path = "/category/learning/htmlcss" Component={HtmlCssRecommendPage}/>
 
-        <Route path = "/category/learning/:tech'" Component={LearningRecommendPage}/>
       
 
 
